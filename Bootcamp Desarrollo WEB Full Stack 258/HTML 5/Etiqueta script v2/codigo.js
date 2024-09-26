@@ -1,3 +1,4 @@
-funtion procesar (){
-    document.getElementById("parrafo1").innerHTML="cambio desde el jscript"
+function procesar ()
+{
+    document.getElementById("parrafo1").innerHTML="Cambio desde el jscript";
 }
