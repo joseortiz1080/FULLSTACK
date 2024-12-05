@@ -1,0 +1,29 @@
+* {
+	box-sizing: border-box;
+}
+#contenedor {
+	width: 100%;
+	border: 3px double rgb(7, 5, 39);
+	padding: 10px;
+	border-radius: 15px;
+	min-height: 500px;
+}
+#header {
+	width: 100%;
+	border: 1px solid rgb(255, 0, 0);
+	padding: 15px;
+	border-top-left-radius: inherit;
+	border-top-right-radius: inherit;
+}
+#menu {
+	width: 25%;
+	float: left;
+	border: 1px solid rgb(187, 0, 255);
+	padding: 15px;
+}
+#main {
+	width: 75%;
+	float: left;
+	border: 1px solid rgb(0, 204, 255);
+	padding: 15px;
+}

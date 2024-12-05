@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyecto Web Semántico</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="js/scripts.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Ejercicio Etiqueta Semantica</h1>
+        <nav>
+            <ul>
+                <li><a href="#" class="boton-seccion" data-target="seccion1">Sección 1</a></li>
+                <li><a href="#" class="boton-seccion" data-target="seccion2">Sección 2</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="content-container">
+        <aside>
+            <h2>Enlaces Recomendados</h2>
+            <ul>
+                <li><a href="https://developer.mozilla.org/es/docs/Web/JavaScript" target="_blank">MDN Web Docs - JavaScript</a></li>
+                <li><a href="https://www.javascript.com/" target="_blank">JavaScript.com</a></li>
+                <li><a href="https://www.w3schools.com/js/" target="_blank">W3Schools - JavaScript Tutorial</a></li>
+                <li><a href="https://eloquentjavascript.net/" target="_blank">Eloquent JavaScript</a></li>
+                <li><a href="https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/" target="_blank">freeCodeCamp - JavaScript Course</a></li>
+            </ul>
+        </aside>
+
+        <div class="logo-container" style="text-align: center; margin: 20px 0;">
+            <img src="imagenes/javaScriptlogo.svg" alt="JavaScript Logo" width="150">
+        </div>      
+        <div class="sections-container">
+            <section id="seccion0" style="display: none;">
+                <h2>Presione en el menú la sección que desea visualizar</h2>
+            </section>
+            <section id="seccion1" style="display: none;">
+                <h2>Sección 1: Introducción a JavaScript</h2>
+                <div class="articulos">
+                    <article>
+                        <h3>Artículo 1: ¿Qué es JavaScript?</h3>
+                        <p>JavaScript es un lenguaje de programación interpretado que se utiliza principalmente para crear contenido web interactivo. Fue desarrollado originalmente por Brendan Eich en 1995 y se ha convertido en uno de los tres lenguajes fundamentales para el desarrollo web, junto con HTML y CSS. JavaScript permite a los desarrolladores agregar elementos dinámicos, como animaciones, validación de formularios y mucho más, lo que mejora significativamente la experiencia del usuario.</p>
+                    </article>
+                    <article>
+                        <h3>Artículo 2: ¿Por qué es importante JavaScript?</h3>
+                        <p>JavaScript es fundamental en el desarrollo web moderno por varias razones. En primer lugar, permite la creación de aplicaciones web interactivas, mejorando la experiencia del usuario y haciendo que las páginas sean más atractivas. Además, JavaScript se ejecuta en el navegador del usuario, lo que significa que puede responder rápidamente a las interacciones sin necesidad de recargar la página. También es compatible con todas las plataformas y navegadores principales, lo que lo convierte en una herramienta versátil para desarrolladores.</p>
+                    </article>
+                </div>
+            </section>
+
+            <section id="seccion2" style="display: none;">
+                <h2>Sección 2: Características y Usos de JavaScript</h2>
+                <div class="articulos">
+                    <article>
+                        <h3>Artículo 3: Características Principales</h3>
+                        <p>JavaScript tiene varias características importantes que lo hacen único. Es un lenguaje interpretado, lo que significa que no necesita ser compilado y se ejecuta directamente en el navegador. También es de tipado débil, lo que implica que no se necesita declarar el tipo de dato de una variable explícitamente. Además, JavaScript es un lenguaje orientado a objetos basado en prototipos, lo que le permite manejar herencia de una manera diferente a otros lenguajes de programación clásicos.</p>
+                    </article>
+                    <article>
+                        <h3>Artículo 4: Aplicaciones de JavaScript</h3>
+                        <p>JavaScript tiene una amplia variedad de aplicaciones. En el lado del cliente, se usa para manipular el Document Object Model (DOM), permitiendo actualizar y cambiar el contenido de una página web sin tener que recargarla. También se utiliza para validar formularios, crear menús interactivos, y realizar animaciones. Además, con el surgimiento de Node.js, JavaScript se ha vuelto popular en el lado del servidor, permitiendo a los desarrolladores crear aplicaciones completas utilizando un solo lenguaje.</p>
+                    </article>
+                </div>
+            </section>
+        </div>
+    </div>
+
+    <footer>
+        <p>Contacto: devicaro1080@gmail.com</p>
+        <p>Derechos Reservados Jose Ortiz - Dev_Icaro &copy; 2024</p>
+    </footer>
+</body>
+</html>

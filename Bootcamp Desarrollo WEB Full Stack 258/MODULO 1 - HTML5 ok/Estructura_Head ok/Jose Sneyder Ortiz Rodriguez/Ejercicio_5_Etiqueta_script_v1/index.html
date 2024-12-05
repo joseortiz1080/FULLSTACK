@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es-CO">
+<head>
+	<meta charset="utf-8">
+	<meta name="keywords" content="script,javascript,HTML,CSS">
+	<meta name="viewport" content="initial-scale=1, user-scalable=No, width=device-width">
+	<meta name="author" content="Omar Smayth Castañeda">
+	<meta name="description" content="Página con la practica 4 version 1 de la etiqueta script">
+	<link rel="stylesheet" href="css/estilos.css">
+	<title>Ejercicio script v1</title>
+	<script>
+		function cambiarParrafo(){
+			document.getElementById("parrafo1").innerHTML="Este texto esta escrito por <strong>Javascript</strong>";
+		}
+	</script>
+</head>
+<body>
+	<section>
+		<article>
+			<header>
+				<h1>Script v1</h1>
+			</header>
+			<p id="parrafo1">
+				Parrafo 1 escrito en codigo <strong>HTML</html>.
+			</p>
+			<input type="button" value="Cambiar" onclick="cambiarParrafo()" class="botones">
+		</article>
+	</section>
+</body>
+</html>

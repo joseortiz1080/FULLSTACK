@@ -1,0 +1,201 @@
+/* Css de la plantilla*/
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin-right: 15px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.content-container {
+    display: flex;
+    flex-direction: row;
+    flex-grow: 1;
+    padding: 15px;
+}
+
+.sections-container {
+    width: 100%;
+}
+
+aside {
+    background: #f4f4f4;
+    padding: 15px;
+    width: 25%;
+}
+
+section {
+    flex-grow: 1;
+    padding: 15px;
+    text-align: justify;
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: auto;
+}
+
+/* De aqui en adelante colocar el css para los ejercicios*/
+
+/*contenedor borde radio 30px imagen de fondo */
+div[id="contenedor"] {
+    width: 90%;
+    height: auto;
+    border-radius: 30px;
+    margin: 30px auto 30px auto;
+    border: 2px rgb(64, 64, 64) solid;
+  }
+  
+  /*encabezado*/
+  div[id="encabezado"] {
+    width: 100%;
+    height: 150px;
+    border-radius: 30px 30px 0 0;
+    text-align: center;
+    color: rgb(255, 255, 255);
+  }
+  
+  /*contenido*/
+  div[id="contenido"] {
+    width: 100%;
+    height: auto;
+    background-color: rgba(255, 255, 255, 1);
+    background-image: url("../imagenes/libros.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
+  
+  /*estilos de secciones y artículos*/
+
+  article {
+    width: 90%;
+    height: auto;
+    border: 3px rgb(255, 255, 255) solid;
+    margin: inherit;
+    text-align: justify;
+    padding: 20px;
+    border-radius: inherit;
+    background-color: rgba(0, 0, 0, 0.4);
+    color: rgb(255, 255, 255);
+    font-family: arial, verdana, sans-serif;
+    font-size: 18px;
+    box-shadow: 0 0 20px rgb(0, 0, 0);
+  }
+  h2 {
+    margin: 20px auto;
+  }
+  h3 {
+    text-align: center;
+  }
+  figure {
+    margin: auto;
+    width: 300px;
+    margin-bottom: 20px;
+  }
+  figure img + figcaption {
+    opacity: 0.6;
+    background-color: rgba(0, 0, 0, 0.6);
+    width: inherit;
+    text-align: center;
+  }
+  p {
+    padding: 20px;
+  }
+  
+  /*estilos div formulario*/
+  div[id="form_inicio_sesion"] {
+    width: 400px;
+    height: auto;
+    margin: auto;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 30px;
+    padding-top: 20 px;
+  }
+  
+  /*Estilos input del formulario*/
+  input[class="caja_texto"] {
+    width: 200px;
+    height: 25px;
+    margin: 5px 100px;
+    border: 2px rgb(73, 73, 73) solid;
+  }
+  label[class="label_form"] {
+    width: 200px;
+    height: 25px;
+    margin: 30px 100px 1px 100px;
+  }
+  div[class="caja_botones"] {
+    width: 100%;
+    height: 40px;
+    text-align: center;
+    margin-top: 10px;
+    padding: 5px;
+  }
+
+  /*reglas de estilo ejercicio final selectores y propiedades*/
+  .seccion2 p, .seccion1 h2 {
+    color: rgb(255, 255, 255);
+    border-radius: 0 0 10px 10px;
+  }
+  section header > h2 {
+    text-align: center;
+    width: 100%;
+    border-radius: 10px;
+  }
+  img[src="imagenes/css3.png"] {
+    width: 300px;
+    height: auto;
+    border-radius: 5px;
+    text-align: center;
+  }
+  input[type="text"]:focus {
+    background-color: rgb(231, 235, 252);
+  }
+  input[type="password"]:focus {
+    background-color: rgb(255, 255, 255);
+  }
+  input:required {
+    background-color: rgb(255, 255, 255);
+  }
+  .botones {
+    width: 100px;
+    height: 30px;
+    background-color: rgb(77, 77, 77);
+    margin-top: 5px;
+  }
+  .botones:hover {
+    background-color: rgb(58, 58, 58);
+    color: rgb(250, 250, 250);
+  }
+  #art2_sec1 header + p {
+    border-top: 2px rgb(61, 61, 61) solid;
+    margin-top: 20px;
+  }
+  

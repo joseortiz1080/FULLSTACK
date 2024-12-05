@@ -1,0 +1,116 @@
+/* Css de la plantilla*/
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin-right: 15px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.content-container {
+    display: flex;
+    flex-direction: row;
+    flex-grow: 1;
+    padding: 15px;
+}
+
+.sections-container {
+    width: 100%;
+}
+
+aside {
+    background: #f4f4f4;
+    padding: 15px;
+    width: 25%;
+}
+
+section {
+    flex-grow: 1;
+    padding: 15px;
+    text-align: justify;
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: auto;
+}
+
+/* De aqui en adelante colocar el css para los ejercicios*/
+
+form {
+    background-color: rgb(79, 79, 79);
+    margin: auto;
+    margin-top: 20px;
+    width: 70%;
+    border: 3px solid rgb(65, 65, 67);
+    padding: 25px;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.225);
+}
+section h1{
+    text-align: center;
+    margin-bottom: 15px;
+    letter-spacing: 2px;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+}
+label {
+    font-size: 20px;
+    letter-spacing: 3px;
+    color: rgb(0, 0, 0);
+}
+.input {
+    display: flex;
+    flex-wrap: wrap;/*para que los elementos se ordenen segun el tamaño de la pag, si no caben pasan abajo*/
+    justify-content: center;
+}
+input[type="submit"] {
+    margin: auto;
+    padding: 6px;
+    border-radius: 8px;
+    background-color: white;
+    font-family: sans-serif;
+    letter-spacing: 2px;
+    align-items: center;
+    width: 70%;
+    border: none;
+}
+input[type="submit"]:hover{
+    background-color: rgba(168, 168, 168, 0.407);
+    color: #fff;
+}
+form p{
+    background-color: rgb(119, 119, 119);
+    border: 2px solid rgb(0, 0, 0);
+    margin-top: 10px;
+    padding: 10px;
+    width: 100%;
+    color: #fff;
+    font-weight: bold;
+}

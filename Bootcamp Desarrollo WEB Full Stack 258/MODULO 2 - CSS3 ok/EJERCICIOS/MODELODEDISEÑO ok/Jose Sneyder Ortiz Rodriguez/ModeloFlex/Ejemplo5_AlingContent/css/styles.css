@@ -1,0 +1,176 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+header {
+  background: #333;
+  color: #fff;
+  padding: 10px 0;
+  text-align: center;
+}
+
+section {
+  flex-grow: 1;
+  padding: 15px;
+  text-align: justify;
+}
+
+footer {
+  background: #333;
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
+  margin-top: auto;
+}
+
+
+section header[id="encabezado"] {
+  background-color: rgba(0, 0, 0, 0.7);
+  width: 100%;
+  height: 60px;
+}
+
+header[id="encabezado"] > h1 {
+  text-align: center;
+  padding: 10px;
+}
+
+header h2 {
+  color: rgb(255, 255, 255);
+  height: 30px;
+  border-radius: 15px 15px 0 0;
+  text-align: center;
+  padding: 20px;
+  background-size: cover;
+  opacity: 0.7;
+}
+article {
+  border: 2px solid rgb(255, 255, 255);
+  width: 90%;
+  margin: inherit;
+  border-radius: 15px;
+  box-shadow: -2px 4px 5px rgb(41, 41, 41);
+  color: rgb(255, 255, 255);
+}
+figure img {
+  width: 100px;
+  padding: 5px;
+}
+
+.contenedor_imagenes {
+  background-color: rgba(0, 0, 0, 0.7);
+  width: 90%;
+  padding: 5px;
+  margin: 10px auto;
+  border: 2px solid rgb(255, 255, 255);
+}
+.contenedor_imagenes div {
+  text-align: center;
+  font-family: verdana, arial, sans-serif;
+  font-size: 18px;
+  margin: 5px;
+  flex-flow: row wrap;
+}
+
+#between {
+  display: flex;
+  align-content: space-between;
+  height: 450px;
+}
+#center {
+  display: flex;
+  align-content: center;
+  height: 450px;
+}
+#flex_start {
+  display: flex;
+  align-content: flex-start;
+  height: 450px;
+}
+#flex_end {
+  display: flex;
+  align-content: flex-end;
+  height: 450px;
+}
+#around {
+  display: flex;
+  align-content: space-around;
+  height: 450px;
+}
+#stretch {
+  display: flex;
+  align-content: stretch;
+  height: 450px;
+}
+
+#mongo {
+  border: 2px solid rgb(0, 230, 0);
+  box-shadow: 2px 5px 8px rgb(0, 230, 0);
+}
+
+#mongo:hover {
+  box-shadow: 4px 6px 10px rgb(0, 230, 0);
+}
+
+#angular {
+  border: 2px solid rgb(230, 0, 0);
+  box-shadow: 2px 5px 8px rgb(240, 0, 0);
+}
+
+#angular:hover {
+  box-shadow: 4px 6px 10px rgb(240, 0, 0);
+}
+
+#node, #mysql {
+  border: 2px solid rgb(240, 240, 240);
+  box-shadow: 2px 5px 8px rgb(255, 255, 255);
+}
+
+#node:hover,#mysql:hover {
+  box-shadow: 4px 6px 10px rgb(255, 255, 255);
+}
+
+#java,#html {
+  border: 2px solid rgb(232, 16, 19);
+  box-shadow: 2px 5px 8px rgb(232, 116, 19);
+}
+
+#java:hover,#html:hover {
+  box-shadow: 4px 6px 10px rgb(232, 116, 19);
+}
+
+#php {
+  border: 2px solid rgb(122, 18, 214);
+  box-shadow: 2px 5px 8px rgb(122, 18, 214);
+}
+
+#php:hover {
+  box-shadow: 4px 6px 10px rgb(122, 18, 214);
+}
+
+#javascript {
+  border: 2px solid rgb(222, 235, 28);
+  box-shadow: 2px 5px 8px rgb(222, 235, 28);
+}
+
+#javascript:hover {
+  box-shadow: 4px 6px 10px rgb(222, 235, 28);
+}
+
+#css {
+  border: 2px solid rgb(28, 59, 235);
+  box-shadow: 2px 5px 8px rgb(28, 59, 235);
+}
+
+#css:hover {
+  box-shadow: 4px 6px 10px rgb(28, 59, 235);
+}

@@ -1,0 +1,191 @@
+/* Css de la plantilla*/
+
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin-right: 15px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.content-container {
+    display: flex;
+    flex-direction: row;
+    flex-grow: 1;
+    padding: 15px;
+}
+
+aside {
+    background: #f4f4f4;
+    padding: 15px;
+    width: 25%;
+}
+
+section {
+    flex-grow: 1;
+    padding: 15px;
+    text-align: justify;
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: auto;
+}
+
+/* De aqui en adelante colocar el css para los ejercicios*/
+section * {
+    box-sizing: border-box;
+    font-family: 'Montserrat';font-size: 20px;
+}
+
+.titulo_articulo{
+    color: #ffffff;
+}
+
+
+section h1 {
+    text-align: center;
+    font-family: sans-serif;
+    color: #757575;
+    font-size: 50px;
+}
+
+
+section p {
+    text-align: justify;
+    margin: 8px;
+}
+
+section {
+    font-family: 'Montserrat';font-size: 22px;
+    
+
+}
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+[class*="col-"] {
+    float: left;
+    padding: 15px;   
+}
+
+.col-1 {width: 100%;
+    border-radius: 10px;
+    
+
+}
+.col-2 {width: 25%;
+
+}
+
+.col-12 {width: 55%;}
+.col-3 {width: 20%;}
+.col-4 {width: 100%;}
+
+
+/* contenedor donde va el titulo*/
+.col-1 {
+    padding: 15px;
+    background-color: rgb(79, 79, 79);
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 20px;
+    border: 2px solid #787575;
+    box-shadow: 5px 6px 10px rgba(0, 0, 0, 0.495);
+    background-image: url(img/Llanos-Orientales-at-sunset.jpg);
+    background-repeat: no-repeat;
+}
+
+.col-2 ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.col-2 li {
+    padding: 8px;
+    margin-bottom: 7px;
+    background-color: rgb(79, 79, 79);
+    color: #ffffff;
+    font-family: sans-serif;
+    box-shadow: 5px 6px 10px black;
+    border-radius: 6px;
+}
+
+.col-2 li:hover {
+    background-color: rgb(8, 242, 35);
+}
+
+.col-3 {
+    float: right;
+    background-color: rgb(79, 79, 79);
+    text-align: center;
+    color: #ffffff;
+    margin-top: -28%;
+
+}
+
+.col-4 {
+    background-color: rgb(64, 112, 219);
+    text-align: center;
+    color: #ffffff;
+    margin-top: 0.5%;
+    margin-bottom: 0;
+    
+}
+.col-12 p {
+    margin: 0px;
+    height: 400px;
+}
+
+@media only screen and (max-width: 600px) {
+
+    [class*="col-"] {
+        width: 100%;
+        font-size: 12px;
+    }
+}
+
+@media only screen and (min-width: 601px) {
+
+    [class*="col-"] {
+        font-size: 16px;
+    }
+}
+
+@media only screen and (max-width: 1268px) {
+
+    .col-12 {width: 74%;}
+    .col-3 {width: 100%;}
+    .col-4 {width: 100%;}
+}

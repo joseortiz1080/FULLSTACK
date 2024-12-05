@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Registro en la Registraduría</title>
+</head>
+<body>
+    <h1>Formulario de Registro</h1>
+    <form action="https://www.w3schools.com/action_page.php" method="post">
+        <label for="nombres">Nombres:</label>
+        <input type="text" id="nombres" name="nombres" required><br><br>
+
+        <label for="apellidos">Apellidos:</label>
+        <input type="text" id="apellidos" name="apellidos" required><br><br>
+
+        <label for="fecha_nacimiento">Fecha de Nacimiento:</label>
+        <input type="date" id="fecha_nacimiento" name="fecha_nacimiento" required><br><br>
+
+        <fieldset>
+            <legend>Género:</legend>
+            <label><input type="radio" name="genero" value="masculino" required> Masculino</label><br>
+            <label><input type="radio" name="genero" value="femenino"> Femenino</label><br>
+            <label><input type="radio" name="genero" value="otro"> Otro</label><br>
+        </fieldset><br>
+
+        <label for="ciudad_nacimiento">Ciudad de Nacimiento:</label>
+        <input type="text" id="ciudad_nacimiento" name="ciudad_nacimiento" required><br><br>
+
+        <fieldset>
+            <legend>Deportes que practica:</legend>
+            <label><input type="checkbox" name="deportes" value="futbol"> Fútbol</label><br>
+            <label><input type="checkbox" name="deportes" value="basketball"> Baloncesto</label><br>
+            <label><input type="checkbox" name="deportes" value="natacion"> Natación</label><br>
+            <label><input type="checkbox" name="deportes" value="ciclismo"> Ciclismo</label><br>
+        </fieldset><br>
+
+        <input type="submit" value="Registrar">
+    </form>
+</body>
+</html>
